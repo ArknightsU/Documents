@@ -1,1 +1,280 @@
-<mxfile host="app.diagrams.net" modified="2021-10-09T23:59:26.452Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" version="15.5.0" etag="IR2AnaPKfAxkpfJncZSp" type="github"><diagram id="gwbSu8ut6rnMR8hAUdaP">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-10T00:49:22.973Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="LKWoH-GRIgvEDSc32kg2" version="15.5.0" type="github">
+  <diagram id="gwbSu8ut6rnMR8hAUdaP" name="Page-1">
+    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DVtTlM4zFgVGjNthjviT-1" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" vertex="1" parent="1">
+          <mxGeometry x="660" y="80" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-2" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
+          <mxGeometry x="80" y="95" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-3" value="CLIENT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-4" value="&lt;font style=&quot;font-size: 18px&quot; face=&quot;Garamond&quot;&gt;&lt;b&gt;GACHA&lt;br&gt;Not Logged In&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-13" value="gacha/{pool_id}?number={gacha number}&amp;amp;stack={stack_number}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="180" y="90" width="480" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-14" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;rounded=0;fontFamily=Garamond;fontSize=15;exitX=1;exitY=0.357;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DVtTlM4zFgVGjNthjviT-2" target="DVtTlM4zFgVGjNthjviT-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="200" as="sourcePoint" />
+            <mxPoint x="570" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-15" value="{pool_id:gacha_pool_id, result: [...gacha result],&lt;br&gt;updated_stack: updated_stack_number}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="174" y="140" width="480" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-16" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;rounded=0;fontFamily=Garamond;fontSize=15;exitX=0;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DVtTlM4zFgVGjNthjviT-1" target="DVtTlM4zFgVGjNthjviT-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="140" as="sourcePoint" />
+            <mxPoint x="660" y="150.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-17" value="&lt;b&gt;&lt;font color=&quot;#5500ff&quot;&gt;GET&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="180" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-18" value="&lt;b&gt;&lt;font color=&quot;#5500ff&quot;&gt;RESPONSE&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="590" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-19" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" vertex="1" parent="1">
+          <mxGeometry x="660" y="270" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-20" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
+          <mxGeometry x="80" y="285" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-21" value="CLIENT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-22" value="&lt;font style=&quot;font-size: 18px&quot; face=&quot;Garamond&quot;&gt;&lt;b&gt;GACHA&lt;br&gt;Logged In&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="220" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-23" value="gacha/{pool_id}?number={gacha number}&amp;amp;gid={googld_id_number}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="174" y="280" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-24" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;rounded=0;fontFamily=Garamond;fontSize=15;exitX=1;exitY=0.357;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DVtTlM4zFgVGjNthjviT-20" target="DVtTlM4zFgVGjNthjviT-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="390" as="sourcePoint" />
+            <mxPoint x="570" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-25" value="{pool_id:gacha_pool_id, result: [...gacha result]}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="174" y="330" width="480" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-26" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;rounded=0;fontFamily=Garamond;fontSize=15;exitX=0;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DVtTlM4zFgVGjNthjviT-19" target="DVtTlM4zFgVGjNthjviT-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="330" as="sourcePoint" />
+            <mxPoint x="660" y="340.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-27" value="&lt;b&gt;&lt;font color=&quot;#5500ff&quot;&gt;GET&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="180" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-28" value="&lt;b&gt;&lt;font color=&quot;#5500ff&quot;&gt;RESPONSE&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="590" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-29" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" vertex="1" parent="1">
+          <mxGeometry x="660" y="450" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-30" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
+          <mxGeometry x="80" y="465" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-31" value="CLIENT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-32" value="&lt;font style=&quot;font-size: 18px&quot; face=&quot;Garamond&quot;&gt;&lt;b&gt;GACHA&lt;br&gt;STATISTICS&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="400" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-33" value="gacha/stats/{pool_id}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="174" y="460" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-34" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;rounded=0;fontFamily=Garamond;fontSize=15;exitX=1;exitY=0.357;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DVtTlM4zFgVGjNthjviT-30" target="DVtTlM4zFgVGjNthjviT-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="570" as="sourcePoint" />
+            <mxPoint x="570" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-35" value="{pool_id: gacha_pool_id, total_pulls: total_pulls_number,&lt;br&gt;result: [...gacha statistics result]}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="174" y="510" width="480" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-36" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;rounded=0;fontFamily=Garamond;fontSize=15;exitX=0;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DVtTlM4zFgVGjNthjviT-29" target="DVtTlM4zFgVGjNthjviT-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="510" as="sourcePoint" />
+            <mxPoint x="660" y="520.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-37" value="&lt;b&gt;&lt;font color=&quot;#5500ff&quot;&gt;GET&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="180" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-38" value="&lt;b&gt;&lt;font color=&quot;#5500ff&quot;&gt;RESPONSE&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="590" y="550" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-39" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" vertex="1" parent="1">
+          <mxGeometry x="670" y="630" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-40" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
+          <mxGeometry x="90" y="645" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-41" value="ADMIN PAGE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="85" y="720" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-42" value="&lt;font style=&quot;font-size: 18px&quot; face=&quot;Garamond&quot;&gt;&lt;b&gt;GACHA&lt;br&gt;ADD or DELETE POOL&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="580" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-43" value="gacha/admin/" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="200" y="600" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-44" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;rounded=0;fontFamily=Garamond;fontSize=15;exitX=1;exitY=0.357;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DVtTlM4zFgVGjNthjviT-40" target="DVtTlM4zFgVGjNthjviT-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="750" as="sourcePoint" />
+            <mxPoint x="580" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-45" value="{result: success, pool_id: {gacha_pool_id}}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="184" y="690" width="480" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-46" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;rounded=0;fontFamily=Garamond;fontSize=15;exitX=0;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DVtTlM4zFgVGjNthjviT-39" target="DVtTlM4zFgVGjNthjviT-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="690" as="sourcePoint" />
+            <mxPoint x="670" y="700.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-47" value="&lt;b&gt;&lt;font color=&quot;#5500ff&quot;&gt;POST&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="190" y="600" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-48" value="&lt;b&gt;&lt;font color=&quot;#5500ff&quot;&gt;RESPONSE&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="600" y="730" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-49" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" vertex="1" parent="1">
+          <mxGeometry x="670" y="980" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-50" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
+          <mxGeometry x="90" y="995" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-52" value="&lt;font style=&quot;font-size: 18px&quot; face=&quot;Garamond&quot;&gt;&lt;b&gt;GACHA&lt;br&gt;POOL EDIT&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="930" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-53" value="gacha/admin/" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="180" y="920" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-54" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;rounded=0;fontFamily=Garamond;fontSize=15;exitX=1;exitY=0.357;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DVtTlM4zFgVGjNthjviT-50" target="DVtTlM4zFgVGjNthjviT-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="1100" as="sourcePoint" />
+            <mxPoint x="580" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-56" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;rounded=0;fontFamily=Garamond;fontSize=15;exitX=0;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DVtTlM4zFgVGjNthjviT-49" target="DVtTlM4zFgVGjNthjviT-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="1040" as="sourcePoint" />
+            <mxPoint x="670" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-57" value="&lt;b&gt;&lt;font color=&quot;#5500ff&quot;&gt;POST&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="174" y="920" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-58" value="&lt;b&gt;&lt;font color=&quot;#5500ff&quot;&gt;RESPONSE&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1080" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-59" value="{order = edit, pool_id:{gacha_pool_id}, details: {...gacha pool data}}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="220" y="950" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-60" value="&lt;font color=&quot;#5500ff&quot;&gt;&lt;b&gt;PAYLOAD&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="160" y="950" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-61" value="{order: add || delete, pool_id: new_gacha_pool_id}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="230" y="630" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-62" value="&lt;font color=&quot;#5500ff&quot;&gt;&lt;b&gt;PAYLOAD&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="190" y="630" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-63" value="{result: success, pool_id: gacha_pool_id,&lt;br&gt;details: {...gacha pool data}}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="184" y="1040" width="480" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-64" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.upload;fontFamily=Garamond;fontSize=15;fontColor=#5500FF;" vertex="1" parent="1">
+          <mxGeometry x="116" y="750" width="48" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-66" value="Upload RSA256 Public Key&lt;br&gt;&amp;amp;&lt;br&gt;Encrypt Payload" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="85" y="810" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-67" value="" style="points=[[0,0.5,0],[0.24,0,0],[0.5,0.28,0],[0.995,0.475,0],[0.5,0.72,0],[0.24,1,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.key;fillColor=#005073;strokeColor=none;fontFamily=Garamond;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="690" y="766.25" width="50" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-68" value="Decrypt payload with private key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="660" y="766.25" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-69" value="ADMIN PAGE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="85" y="1080" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-71" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.upload;fontFamily=Garamond;fontSize=15;fontColor=#5500FF;" vertex="1" parent="1">
+          <mxGeometry x="121" y="1110" width="48" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-72" value="Upload RSA256 Public Key&lt;br&gt;&amp;amp;&lt;br&gt;Encrypt Payload" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="90" y="1170" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-73" value="" style="points=[[0,0.5,0],[0.24,0,0],[0.5,0.28,0],[0.995,0.475,0],[0.5,0.72,0],[0.24,1,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.key;fillColor=#005073;strokeColor=none;fontFamily=Garamond;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="694" y="1110" width="50" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-74" value="Decrypt payload with private key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="664" y="1110" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-91" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" vertex="1" parent="1">
+          <mxGeometry x="682" y="1350" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-92" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
+          <mxGeometry x="102" y="1365" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-93" value="&lt;font style=&quot;font-size: 18px&quot; face=&quot;Garamond&quot;&gt;&lt;b&gt;CHARACTER&lt;br&gt;JSON UPDATE&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1300" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-94" value="gacha/admin/" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="192" y="1290" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-95" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;rounded=0;fontFamily=Garamond;fontSize=15;exitX=1;exitY=0.357;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DVtTlM4zFgVGjNthjviT-92" target="DVtTlM4zFgVGjNthjviT-91">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="542" y="1470" as="sourcePoint" />
+            <mxPoint x="592" y="1420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-96" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;rounded=0;fontFamily=Garamond;fontSize=15;exitX=0;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DVtTlM4zFgVGjNthjviT-91" target="DVtTlM4zFgVGjNthjviT-92">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="632" y="1410" as="sourcePoint" />
+            <mxPoint x="682" y="1420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-97" value="&lt;b&gt;&lt;font color=&quot;#5500ff&quot;&gt;POST&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="186" y="1290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-98" value="&lt;b&gt;&lt;font color=&quot;#5500ff&quot;&gt;RESPONSE&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="612" y="1450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-99" value="{order = update, characters: {...characters json data}}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="232" y="1320" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-100" value="&lt;font color=&quot;#5500ff&quot;&gt;&lt;b&gt;PAYLOAD&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="172" y="1320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-101" value="{result: success, characters: {...gacha pool data}}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="196" y="1410" width="480" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-102" value="ADMIN PAGE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="97" y="1450" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-103" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.upload;fontFamily=Garamond;fontSize=15;fontColor=#5500FF;" vertex="1" parent="1">
+          <mxGeometry x="133" y="1480" width="48" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-104" value="Upload RSA256 Public Key&lt;br&gt;&amp;amp;&lt;br&gt;Encrypt Payload" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="102" y="1540" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-105" value="" style="points=[[0,0.5,0],[0.24,0,0],[0.5,0.28,0],[0.995,0.475,0],[0.5,0.72,0],[0.24,1,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.key;fillColor=#005073;strokeColor=none;fontFamily=Garamond;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="706" y="1480" width="50" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DVtTlM4zFgVGjNthjviT-106" value="Decrypt payload with private key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Garamond;fontSize=15;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="676" y="1480" width="120" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
