@@ -45,9 +45,12 @@ gacha/admin, {"order": "update", "characters": characters}
 - ##### etc: 
 서버 저장소에 저장되어 있는 character json data를 기반으로 새로운 gacha pool 데이터를 생성함. 기본 character json data 에는 ```limited``` 와 ```unobtainable``` 항목이 존재함.
 만약 ```type: "limited"``` 일 경우 전체 캐릭중 ```unobtainable```항목의 오퍼레이터를 제외한 모든 캐릭터를 가챠 풀의 형태로 정제하여 새로운 가챠 풀을 생성함.
+
 만약 ```type: "featured"``` 일 경우 전체 캐릭 중 ```unobtainable```과 ```limited``` 항목에 포함되는 오퍼레이터를 제외한 모든 캐릭터를 가챠 풀의 형태로 정제하여 새로운 가챠 풀을 생성함.
 가챠 풀 내부의 ```meta``` 항목에는 post로 전해준 type, name, code를 포함시킴
+
 어드민이 나중에 픽업 대상을 ```edit``` 할 수 있도록 ```featured```항목에는 아무것도 없는 빈 배열을 담는다.
+
 이후, 가챠 풀을 json형태로 payload에 담아 반환.
 
 #### Request Example
