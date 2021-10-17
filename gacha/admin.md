@@ -24,7 +24,7 @@ API data movement in admin - gacha page
 - ##### etc :
 서버 저장소의 ```character_table.json``` 을 업데이트 하는 명령
 #### Request Example
-```json
+```javascript
 gacha/admin, {"order": "update", "characters": characters}
 ```
 #### Response
@@ -54,7 +54,7 @@ gacha/admin, {"order": "update", "characters": characters}
 이후, 가챠 풀을 json형태로 payload에 담아 반환.
 
 #### Request Example
-```json
+```javascript
 /gacha/admin, {"order": "add", "meta":{"type":type, "name":name, "code": code}}
 ```
 #### Response
@@ -63,7 +63,7 @@ gacha/admin, {"order": "update", "characters": characters}
 > ###### pool : generated gacha pool json [ <span style="color:red"> json object </span> ]
 
 #### Response Example
-```json
+```javascript
 ///success
 200, {"pool": {
 "meta": {"type":..."name":..."code":...},
@@ -90,7 +90,7 @@ gacha/admin, {"order": "update", "characters": characters}
 - ##### etc:
 ```add``` 명령을 통해 받은 데이터를 토대로 admin이 수정을 가함. 수정된 gacha pool을 json형식으로 payload에 담아 보냄
 #### Request Example
-```json
+```javascript
 /gacha/admin, {"order": "edit", "code":code, "pool": {
 "meta": {"type":..."name":..."code":...},
 "5":[...6star characters...],
@@ -113,7 +113,7 @@ gacha/admin, {"order": "update", "characters": characters}
 - ##### etc :
 혹시 ```add```나 ```edit```명령으로 잘못된 pool이 업데이트 되었을 경우를 대비한 명령
 #### Request Example
-```json
+```javascript
 /gacha/admin, {"order":"delete", "code": code}
 ```
 #### Response
