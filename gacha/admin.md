@@ -109,7 +109,7 @@ gacha/admin, {"order": "update", "characters": characters}
 - ##### Method : post
 - ##### Payload :
 > ###### order : order types [ <span style="color:red"> string </span> ] ( "delete" )
-> ###### code : gacha pool delete target [ <span style="color:red">json object </span> ]
+> ###### code : gacha pool delete target [ <span style="color:red"> string </span> (ex: "gacha_pool_1001")
 - ##### etc :
 혹시 ```add```나 ```edit```명령으로 잘못된 pool이 업데이트 되었을 경우를 대비한 명령
 #### Request Example
